@@ -104,8 +104,10 @@ Ensure you have **Docker** and **Docker Compose** installed on your system.
 ## 🔎 API Documentation
 
 Interactive Swagger UI available at:
-`http://localhost:443/docs`
-
+`http://localhost/docs`
+<p align="center">
+  <img src="docs/images/task_management.png" alt="Swagger UI - Task Management API" width="650" />
+</p>
 ---
 
 ## 📡 API Endpoints
