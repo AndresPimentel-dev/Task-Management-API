@@ -55,9 +55,9 @@ jobs:
 
     - name: run Docker compose to check
       env:
-        SECRET_KEY: ${{secrets.SECRET_KEY}}
-        POSTGRES_PASSWORD: ${{secrets.POSTGRES_PASSWORD}}
-        ACCESS_TOKEN_EXPIRE_MINUTES: ${{secrets.ACCESS_TOKEN_EXPIRE_MINUTES}}
+        SECRET_KEY: fakesecretkeyforciworkflow
+        POSTGRES_PASSWORD: fakepostgrespasswordforci
+        ACCESS_TOKEN_EXPIRE_MINUTES: 30
       run: docker compose up --build -d
 
     - name: Esperar y verificar docker compose

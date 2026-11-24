@@ -70,17 +70,16 @@ Ensure you have **Docker** and **Docker Compose** installed on your system.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/AndresPimentel-dev/task-management-API.git
+   git clone https://github.com/AndresPimentel-dev/Task-Management-API.git
    cd task-management-API
    ```
 
 2. Create a `.env` file based on `.env.example`:
    ```env
-   DATABASE_URL=postgresql://postgres:your_password@localhost:5432/taskforge_db
    POSTGRES_PASSWORD=your_password
    SECRET_KEY=your_secret_key_super_very_secret_and_long
-   ALGORITHM=HS256
-   ACCESS_TOKEN_EXPIRE_MINUTES=30
+   algorithm=HS256
+   access_token_expire_minutes=30
    ```
 
 3. Run with Docker Compose:
